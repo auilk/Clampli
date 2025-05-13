@@ -4,13 +4,14 @@ import GitIcon from "./assets/icons/github-icon.png";
 import LinkedInIcon from "./assets/icons/linkedin-icon.png";
 import ClampliLogo from "./assets/logos/clampli-logo.png";
 import DottedBG from "./components/DottedBG";
+import UnitSelector from "./components/UnitSelector";
 
 
 function App()
 {
   return (
     <div className="flex flex-col h-dvh">
-      <NavBar gap={10}>
+      {/* <NavBar gap={10}>
         <NavLink position="right" link="https://github.com/auilk"text="GitHub" fontSize={0.6} icon={GitIcon}></NavLink>
         <NavLink position="right" link="https://www.linkedin.com/in/abdelghafour-lbaz/" text="LinkedIn" fontSize={0.6} icon={LinkedInIcon}></NavLink>
         <p position="center" className="text-white text-lg">Fluid type & layout—no math, just magic</p>
@@ -19,7 +20,8 @@ function App()
             backgroundImage: `url(${ClampliLogo})`,
           }}></div>
       </NavBar>
-      <DottedBG></DottedBG>
+      <DottedBG></DottedBG> */}
+      <UnitSelector></UnitSelector>
     </div>
   );
 }
