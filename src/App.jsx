@@ -6,6 +6,7 @@ import ClampliLogo from "./assets/logos/clampli-logo.png";
 import DottedBG from "./components/DottedBG";
 import UnitSelector from "./components/UnitSelector";
 import Form from "./components/Form";
+import ClampFormat from "./components/ClampFormat";
 
 
 function App()
@@ -23,7 +24,8 @@ function App()
       </NavBar>
       <DottedBG></DottedBG> */}
       {/* <UnitSelector></UnitSelector> */}
-      <Form></Form>
+      {/* <Form></Form> */}
+      <ClampFormat></ClampFormat>
     </div>
   );
 }
